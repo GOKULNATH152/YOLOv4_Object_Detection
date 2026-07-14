@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.env
+venv/
+env/
+
+# Model weights (large binary files — download separately)
+yard_weights/*.weights
+
+# Output images (keep sample in docs/ for portfolio)
+output/*
+!output/.gitkeep
+
+# docs sample — always keep
+!docs/
+
+# Input images (add your own)
+input/*
+!input/.gitkeep
+
+# IDE
+.vscode/
+.idea/
